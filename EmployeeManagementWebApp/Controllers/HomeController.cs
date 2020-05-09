@@ -18,7 +18,7 @@ namespace EmployeeManagementWebApp.Controllers
         {
 
             //return View(a);
-            return _employeeRepositry.GetEmployee(1).Name;
+            return _employeeRepositry.GetEmployee(1).Mobile;
         }
         public JsonResult GetEmployeeDetails(int id)
         {
